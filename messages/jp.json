@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "こにちは!",
+    "about": "Go to the about page"
+  },
+  "Sidebar": {
+    "title": "Sidebar Hello world!",
+    "Home": "Home_Career_Tech Tools_About_Contact"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Sidebar": {
+    "Example": "example",
+    "Home": "Home_Career_Tech Tools_About_Contact"
+  }
+}
