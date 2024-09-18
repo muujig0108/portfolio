@@ -44,18 +44,20 @@ function Sidebar({ props }) {
 
   return (
     <>
-      <div className="flex h-screen">
+      <div className="flex h-screen ">
         <div className="w-1/3"></div>
         <div className="w-2/3">
           <div className="h-1/3 flex-col flex items-start justify-center">
             <Image
-              src="/logos-01.png"
+              src="/profile.png"
               alt="me"
-              width={100}
+              width={120}
               height={100}
               className="rounded-full"
             />
-            This is Sidebar
+            <div className="text-black font-merriweather text-xl font-semibold tracking-wide mt-4">
+              Sodkhuu Munkhtur
+            </div>
           </div>
 
           <div className="h-2/3 flex items-start justify-start">

@@ -33,28 +33,12 @@ export default function About() {
       <div className="ml-10 h-full">
         <div className="h-48"></div>
 
-        <div className="h-2/3 flex items-start justify-start">
+        <div className="h-2/3 flex flex-col items-start justify-start">
           <div className="flex flex-col">
-            {resultArray.map((v, i) => (
-              <div className="flex flex-row ml-2" key={i}>
-                <Link
-                  href={v.url}
-                  key={v}
-                  target="_blank"
-                  className="flex items-center"
-                  // onClick={() => handleSelect(i)}
-                >
-                  <Image
-                    width="45"
-                    height="45"
-                    src={v.imgUrl}
-                    alt="math"
-                    className="mr-2"
-                  />
-                  {v.prot}
-                </Link>
-              </div>
-            ))}
+            Hobby GYM Basketball Book Classical Music Movie Documentary film
+          </div>
+          <div className="flex flex-col">
+            Role model Platon Dr.House Henry Ford
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ export default function Home() {
   console.log("t", t("Home"));
 
   return (
-    <MainLayout>
+    <MainLayout >
       <div className="ml-10 h-full">
         <div className="h-48">
           <div className="grid grid-rows-3 grid-flow-col gap-4">
@@ -48,10 +48,18 @@ export default function Home() {
             <div className="row-span-2 col-span-2 bg-white  flex justify-center items-center">
               3
             </div>
-            <div className=" bg-white  flex flex-col justify-center items-center">
-              <div className="text-4xl">Company</div>
-              <div className="text-4xl">Expert</div>
+            <div className="bg-white flex flex-col justify-center items-center relative">
+              <div className="text-xl z-10 left-14 relative">
+                Satisfied Clients
+              </div>
+              <div className="text-xl absolute top-20 left-10 z-0 opacity-70">
+                Company
+              </div>
+              <div className="text-xl absolute bottom-20 left-10 z-0 opacity-50">
+                Government
+              </div>
             </div>
+
             <div className=" bg-white  flex flex-col justify-center items-center">
               <div className=" flex flex-row">
                 <div className="text-6xl">3</div>

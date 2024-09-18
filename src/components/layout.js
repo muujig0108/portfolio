@@ -7,7 +7,7 @@ export default function MainLayout({ children }) {
   console.log("t", t("Home"));
 
   return (
-    <div className="flex  min-h-screen">
+    <div className="flex  min-h-screen ">
       <div className="w-1/5 min-h-screen ">
         <Sidebar props={t("Home")}></Sidebar>
       </div>

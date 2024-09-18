@@ -43,14 +43,14 @@ export default function About() {
               height="45"
               src="https://img.icons8.com/color/48/equation.png"
               alt="math"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/external-febrian-hidayat-gradient-febrian-hidayat/64/external-09-school-and-education-febrian-hidayat-gradient-febrian-hidayat.png"
               alt="physics"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
           </span>
           <p>Math, Physics ...</p>
@@ -71,48 +71,56 @@ export default function About() {
                 height="45"
                 src="https://img.icons8.com/color/48/c-programming.png"
                 alt="c-programming"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/color/48/html-5--v1.png"
                 alt="html-5"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/color/48/css3.png"
                 alt="css3"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/fluency/48/javascript.png"
                 alt="javascript"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/color/48/python--v1.png"
                 alt="python"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/color/48/assembly.png"
                 alt="assembly"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/50/external-embedded-web-development-flaticons-lineal-color-flat-icons.png"
                 alt="embedded"
+                className="mr-2 hover-effect"
               />
               <Image
                 width="45"
                 height="45"
                 src="https://img.icons8.com/sf-black-filled/50/github.png"
                 alt="github"
+                className="mr-2 hover-effect"
               />
             </span>
           </h4>
@@ -142,35 +150,35 @@ export default function About() {
               height="45"
               src="https://img.icons8.com/color/48/angularjs.png"
               alt="angularjs"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/spring-logo.png"
               alt="spring-boot"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
-              src="https://w7.pngwing.com/pngs/534/663/png-transparent-net-framework-software-framework-c-microsoft-asp-net-microsoft-blue-angle-text-thumbnail.png"
+              src="https://img.icons8.com/nolan/64/asp.png"
               alt="asp_net"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/microsoft-sql-server.png"
               alt="mssql"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/gitlab.png"
               alt="gitlab"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
           </span>
           <p>
@@ -195,56 +203,56 @@ export default function About() {
               height="45"
               src="https://img.icons8.com/color/48/react-native.png"
               alt="reactjs"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/nodejs.png"
               alt="nodejs"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/nextjs.png"
               alt="nextjs"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/microsoft-sql-server.png"
               alt="mssql"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="34"
               height="24"
               src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-shadow-tal-revivo.png"
               alt="postgresql"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/mongodb.png"
               alt="mongodb"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/python--v1.png"
               alt="python"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
             <Image
               width="45"
               height="45"
               src="https://img.icons8.com/color/48/net-framework.png"
               alt="net"
-              className="mr-2"
+              className="mr-2 hover-effect"
             />
           </span>
           <span>
@@ -253,7 +261,7 @@ export default function About() {
               height="45"
               src="https://img.icons8.com/color/48/gitlab.png"
               alt="gitlab"
-              className="ml-2"
+              className="ml-2 mr-2 hover-effect"
             />
           </span>
           <p>
