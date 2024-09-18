@@ -13,7 +13,7 @@ function Sidebar({ props }) {
   const searchParams = useSearchParams();
   console.log("localActive", localActive);
 
-  const pages = ["", "Career_Tech", "Tools", "about", "Contact"];
+  const pages = ["", "career", "tech-tools", "about", "contact"];
 
   // Function to update selected navbar
   // const handleSelect = (index) => {
@@ -24,12 +24,14 @@ function Sidebar({ props }) {
   let key = 1;
   if (pathName.substring(1) === localActive) {
     key = 1;
-  } else if (pathName.includes("sd")) {
+  } else if (pathName.includes("career")) {
     key = 2;
-  } else if (pathName.includes("file")) {
+  } else if (pathName.includes("tech-tools")) {
     key = 3;
   } else if (pathName.includes("about")) {
     key = 4;
+  } else if (pathName.includes("contact")) {
+    key = 5;
   }
   //setSelectNavbar(key - 1);
   console.log(

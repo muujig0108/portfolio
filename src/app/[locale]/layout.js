@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import "react-vertical-timeline-component/style.min.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

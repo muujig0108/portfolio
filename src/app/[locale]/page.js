@@ -22,30 +22,44 @@ export default function Home() {
       <div className="ml-10 h-full">
         <div className="h-48">
           <div className="grid grid-rows-3 grid-flow-col gap-4">
-            <div className="row-span-3 ...">Home</div>
-            <div className="col-span-2 ...">02</div>
-            <div className="row-span-2 col-span-2 ...">03</div>
+            <div className="row-span-3 text-4xl mt-10">
+              Software Development Services
+            </div>
+            {/* <div className="col-span-2 ...">02</div>
+            <div className="row-span-2 col-span-2 ...">03</div> */}
           </div>
         </div>
         <div>
           <div className="grid grid-cols-4 grid-rows-[240px,240px,240px] gap-6 ">
             <div
-              className=" bg-white  flex justify-center items-center"
+              className=" bg-white  rounded-md  border-blue-500 flex flex-col justify-center items-center  transition-transform transform hover:scale-105"
               onClick={() => handleScroll(sectionOneRef)}
             >
-              1
+              <div className="text-6xl">10+</div>
+              <div className="mt-3">Completed Projects</div>
             </div>
             <div
-              className=" bg-white  flex justify-center items-center"
+              className=" bg-white  flex flex-col justify-center items-center"
               onClick={() => handleScroll(sectionTwoRef)}
             >
-              2
+              <div className="text-4xl">Web</div>
+              <div className="text-4xl">Expert</div>
             </div>
             <div className="row-span-2 col-span-2 bg-white  flex justify-center items-center">
               3
             </div>
-            <div className=" bg-white  flex justify-center items-center">4</div>
-            <div className=" bg-white  flex justify-center items-center">5</div>
+            <div className=" bg-white  flex flex-col justify-center items-center">
+              <div className="text-4xl">Company</div>
+              <div className="text-4xl">Expert</div>
+            </div>
+            <div className=" bg-white  flex flex-col justify-center items-center">
+              <div className=" flex flex-row">
+                <div className="text-6xl">3</div>
+                <div className="text-3xl">+</div>
+                <div className="mt-8">years</div>
+              </div>
+              <div className="mt-3">Production Experience</div>
+            </div>
             <div className=" bg-white  flex justify-center items-center">6</div>
           </div>
         </div>
