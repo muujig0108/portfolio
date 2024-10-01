@@ -78,7 +78,7 @@ export default function About() {
           </h4>
           <p>
             Web developer, Desktop App developer, Front-end developer, Back-end
-            developer, Database developer, Mobile App developer
+            developer, Database developer, Mobile App developer, CI/CD
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

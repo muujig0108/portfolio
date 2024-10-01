@@ -255,7 +255,8 @@ export default function About() {
               className="mr-2 hover-effect"
             />
           </span>
-          <span>
+
+          <span className="flex flex-row">
             <Image
               width="45"
               height="45"
@@ -263,10 +264,25 @@ export default function About() {
               alt="gitlab"
               className="ml-2 mr-2 hover-effect"
             />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/fluency/48/docker.png"
+              alt="docker"
+              className="  mr-2 hover-effect"
+            />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/kubernetes.png"
+              alt="k8s"
+              className="mr-2 hover-effect"
+            />
           </span>
+
           <p>
             Reactjs, React-Native, Nodejs, Nextjs, MSSQL, MongoDB, PostgreSQL,
-            Python, .Net, git controller with Gitlab
+            Python, .Net, git controller with Gitlab, Docker, Kubernetes
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

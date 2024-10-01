@@ -4,7 +4,7 @@ import Sidebar from "@/components/sidebar";
 import { useTranslations } from "next-intl";
 import Language from "@/components/language";
 import MainLayout from "@/components/layout";
-
+<link rel="icon" href="/favicon.ico" sizes="any" />;
 export default function Home() {
   const sectionOneRef = useRef(null);
   const sectionTwoRef = useRef(null);
@@ -18,7 +18,7 @@ export default function Home() {
   console.log("t", t("Home"));
 
   return (
-    <MainLayout >
+    <MainLayout>
       <div className="ml-10 h-full">
         <div className="h-48">
           <div className="grid grid-rows-3 grid-flow-col gap-4">
