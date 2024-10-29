@@ -68,7 +68,7 @@ export default function About() {
         <VerticalTimelineElement
           visible={true}
           className="vertical-timeline-element--work"
-          date="2022 - present"
+          date="2022 - 2024"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -79,6 +79,21 @@ export default function About() {
           <p>
             Web developer, Desktop App developer, Front-end developer, Back-end
             developer, Database developer, Mobile App developer, CI/CD
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          visible={true}
+          className="vertical-timeline-element--work"
+          date="2024 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Back-End Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Innovation Investment LLC
+          </h4>
+          <p>
+            Web developer, Front-end developer, Back-end developer /Node.js/
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

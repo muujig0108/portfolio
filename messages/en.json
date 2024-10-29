@@ -1,10 +1,16 @@
 {
   "HomePage": {
-    "title": "Hello world!",
+    "title": "Software Development Services",
+    "1": "Completed Projects",
+    "2": "Web_Expert",
+    "3": "3",
+    "4": "Company_Government_Satisfied Clients",
+    "5": "years_Production Experience",
     "about": "Go to the about page"
   },
   "Sidebar": {
     "Example": "example",
-    "Home": "Home_Career_Tech-Tools_About_Contact"
+    "Home": "Home_Career_Tech-Tools_About_Contact",
+    "Name": "Sodkhuu Munkhtur"
   }
 }

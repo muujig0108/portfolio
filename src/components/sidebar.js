@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useLocale } from "use-intl";
+import { useTranslations } from "next-intl";
 
 function Sidebar({ props }) {
   const [selectNavbar, setSelectNavbar] = useState(0); // Current selected item
@@ -12,6 +13,8 @@ function Sidebar({ props }) {
   const localActive = useLocale();
   const searchParams = useSearchParams();
   console.log("localActive", localActive);
+  const t = useTranslations("Sidebar");
+  console.log("Name", t("Name"));
 
   const pages = ["", "career", "tech-tools", "about", "contact"];
 
@@ -56,7 +59,7 @@ function Sidebar({ props }) {
               className="rounded-full"
             />
             <div className="text-black font-merriweather text-xl font-semibold tracking-wide mt-4">
-              Sodkhuu Munkhtur
+              {t("Name")}
             </div>
           </div>
 

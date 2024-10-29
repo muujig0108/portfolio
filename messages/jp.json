@@ -1,10 +1,16 @@
 {
   "HomePage": {
-    "title": "こにちは!",
+    "title": "ソフトウェア開発サービス",
+    "1": "完了したプロジェクト",
+    "2": "ウェブ_専門家",
+    "3": "3",
+    "4": "会社_政府_満足した顧客",
+    "5": "年_制作経験",
     "about": "Go to the about page"
   },
   "Sidebar": {
     "title": "Sidebar Hello world!",
-    "Home": "Home_Career_Tech Tools_About_Contact"
+    "Home": "家_キャリア_技術ツール_について_接触",
+    "Name": "ソドフウー　ムンフトル"
   }
 }
