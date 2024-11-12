@@ -15,7 +15,7 @@ export default function Home() {
     }
   };
   const t = useTranslations("HomePage");
-  console.log("t", t("title"));
+  // console.log("t", t("title"));
   const resultArray2 = t("2").split("_");
   const resultArray4 = t("4").split("_");
   const resultArray5 = t("5").split("_");
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className="grid grid-cols-4 grid-rows-[240px,240px,240px] gap-6 ">
+          <div className="grid sm:grid-cols-4 grid-rows-[240px,240px,240px] gap-6 ">
             <div
               className=" bg-white  rounded-md  border-blue-500 flex flex-col justify-center items-center  transition-transform transform hover:scale-105"
               onClick={() => handleScroll(sectionOneRef)}
@@ -50,13 +50,13 @@ export default function Home() {
               3
             </div>
             <div className="bg-white flex flex-col justify-center items-center relative">
-              <div className="text-xl z-10 left-14 relative">
+              <div className="text-xl z-10 sm:left-14 relative">
                 {resultArray4[2]}
               </div>
-              <div className="text-xl absolute top-20 left-10 z-0 opacity-70">
+              <div className="text-xl absolute top-1 sm:top-20 left-10 z-0 opacity-70">
                 {resultArray4[0]}
               </div>
-              <div className="text-xl absolute bottom-20 left-10 z-0 opacity-50">
+              <div className="text-xl absolute bottom-1 sm:bottom-20 left-10 z-0 opacity-50">
                 {resultArray4[1]}
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function Home() {
               </div>
               <div className="mt-3">{resultArray5[1]}</div>
             </div>
-            <div className=" bg-white  flex justify-center items-center">6</div>
+            {/* <div className=" bg-white  flex justify-center items-center">6</div> */}
           </div>
         </div>
         {/* First section */}

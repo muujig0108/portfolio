@@ -21,7 +21,7 @@ export default function About() {
     }
   };
   const t = useTranslations("Sidebar");
-  console.log("t", t("Home"));
+  // console.log("t", t("Home"));
 
   return (
     <MainLayout>

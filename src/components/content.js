@@ -11,7 +11,7 @@ export default function MainContent({ children }) {
       //   }}
     >
       <div className="h-20px">
-        <div className="grid grid-cols-8 gap-4">
+        <div className="grid grid-cols-6  sm:grid-cols-8 gap-4">
           {/* <div className="col-start-1 col-end-1">01</div> */}
           <div className="col-end-9">
             <Language />

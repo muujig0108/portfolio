@@ -23,7 +23,7 @@ export default function About() {
     }
   };
   const t = useTranslations("Sidebar");
-  console.log("t", t("Home"));
+  // console.log("t", t("Home"));
 
   return (
     <MainLayout>
@@ -36,7 +36,9 @@ export default function About() {
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">23th school</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            23th school of Ulaanbaatar
+          </h4>
           <span className="flex flex-row ml-2">
             <Image
               width="45"
@@ -65,7 +67,7 @@ export default function About() {
           <h3 className="vertical-timeline-element-title">Student</h3>
           <h4 className="vertical-timeline-element-subtitle ">
             National University of Mongolia
-            <span className="flex flex-row ml-2">
+            <span className="flex flex-row sm:flex-row ml-2 flex-wrap">
               <Image
                 width="45"
                 height="45"
@@ -144,7 +146,7 @@ export default function About() {
             Software Developer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">TenPlus</h4>
-          <span className="flex flex-row ml-2">
+          <span className="flex flex-row ml-2 flex-wrap">
             <Image
               width="45"
               height="45"
@@ -189,7 +191,7 @@ export default function About() {
         <VerticalTimelineElement
           visible={true}
           className="vertical-timeline-element--work"
-          date="2022 - present"
+          date="2022 - 2024 October"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -197,7 +199,7 @@ export default function About() {
           <h4 className="vertical-timeline-element-subtitle">
             National Statistics Office of Mongolia
           </h4>
-          <span className="flex flex-row ml-2">
+          <span className="flex flex-row ml-2 flex-wrap">
             <Image
               width="45"
               height="45"
@@ -283,6 +285,85 @@ export default function About() {
           <p>
             Reactjs, React-Native, Nodejs, Nextjs, MSSQL, MongoDB, PostgreSQL,
             Python, .Net, git controller with Gitlab, Docker, Kubernetes
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          visible={true}
+          className="vertical-timeline-element--work"
+          date="2024 October - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Back-End Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Innovation Investment LLC
+          </h4>
+          <span className="flex flex-row ml-2 flex-wrap">
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/react-native.png"
+              alt="reactjs"
+              className="mr-2 hover-effect"
+            />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/nodejs.png"
+              alt="nodejs"
+              className="mr-2 hover-effect"
+            />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/nextjs.png"
+              alt="nextjs"
+              className="mr-2 hover-effect"
+            />
+
+            <Image
+              width="34"
+              height="24"
+              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-shadow-tal-revivo.png"
+              alt="postgresql"
+              className="mr-2 hover-effect"
+            />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/mongodb.png"
+              alt="mongodb"
+              className="mr-2 hover-effect"
+            />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/python--v1.png"
+              alt="python"
+              className="mr-2 hover-effect"
+            />
+          </span>
+
+          <span className="flex flex-row">
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/color/48/gitlab.png"
+              alt="gitlab"
+              className="ml-2 mr-2 hover-effect"
+            />
+            <Image
+              width="45"
+              height="45"
+              src="https://img.icons8.com/fluency/48/docker.png"
+              alt="docker"
+              className="  mr-2 hover-effect"
+            />
+          </span>
+
+          <p>
+            Reactjs, Nodejs, Nextjs, MongoDB, PostgreSQL, Python, git controller
+            with Gitlab, Docker
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

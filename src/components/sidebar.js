@@ -12,9 +12,9 @@ function Sidebar({ props }) {
   const pathName = usePathname();
   const localActive = useLocale();
   const searchParams = useSearchParams();
-  console.log("localActive", localActive);
+  // console.log("localActive", localActive);
   const t = useTranslations("Sidebar");
-  console.log("Name", t("Name"));
+  // console.log("Name", t("Name"));
 
   const pages = ["", "career", "tech-tools", "about", "contact"];
 
@@ -37,19 +37,19 @@ function Sidebar({ props }) {
     key = 5;
   }
   //setSelectNavbar(key - 1);
-  console.log(
-    "selectNavbar",
-    key,
-    pathName,
-    pathName.substring(1),
-    selectNavbar
-  );
+  // console.log(
+  //   "selectNavbar",
+  //   key,
+  //   pathName,
+  //   pathName.substring(1),
+  //   selectNavbar
+  // );
 
   return (
     <>
       <div className="flex h-screen ">
-        <div className="w-1/3"></div>
-        <div className="w-2/3">
+        <div className="w-1/4 sm:w-1/3"></div>
+        <div className="w-full sm:w-2/3">
           <div className="h-1/3 flex-col flex items-start justify-center">
             <Image
               src="/profile.png"
@@ -58,12 +58,12 @@ function Sidebar({ props }) {
               height={100}
               className="rounded-full"
             />
-            <div className="text-black font-merriweather text-xl font-semibold tracking-wide mt-4">
+            <div className="text-black font-merriweather text-lg sm:text-xl font-semibold tracking-wide mt-4">
               {t("Name")}
             </div>
           </div>
 
-          <div className="h-2/3 flex items-start justify-start">
+          <div className="h-2/3 flex ml-2 sm:ml-0 items-start justify-start">
             <div className="grid gap-y-12">
               {resultArray.map((v, i) => (
                 <Link

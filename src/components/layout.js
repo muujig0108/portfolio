@@ -4,7 +4,7 @@ import Sidebar from "./sidebar";
 
 export default function MainLayout({ children }) {
   const t = useTranslations("Sidebar");
-  console.log("t", t("Home"));
+  // console.log("t", t("Home"));
 
   return (
     <div className="flex  min-h-screen ">

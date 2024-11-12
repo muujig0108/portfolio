@@ -15,7 +15,7 @@ export default function About() {
     }
   };
   const t = useTranslations("Sidebar");
-  console.log("t", t("Home"));
+  // console.log("t", t("Home"));
   const resultArray = [
     {
       url: "https://github.com/muujig0108",
