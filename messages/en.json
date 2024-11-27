@@ -12,5 +12,37 @@
     "Example": "example",
     "Home": "Home_Career_Tech-Tools_About_Contact",
     "Name": "Sodkhuu Munkhtur"
+  },
+  "experiences": {
+    "title": "My Experience",
+    "tenplus": {
+      "year": "2021 - 2022",
+      "title": "Developer at TenPlus",
+      "description": "Developed sections of the company's internal web for revenue and expense reports."
+    },
+    "nso": {
+      "year": "2022 - 2024",
+      "title": "Programmer at National Statistics Office",
+      "description": "",
+      "subProjects": {
+        "1": {
+          "title": "1. Livestock Census Program",
+          "description": "Developed Mongolia's livestock census program and wrote documentation for it."
+        },
+        "2": {
+          "title": "2. Migrating Desktop Apps to Web",
+          "description": "Led a team of 3 to convert desktop data collection apps into web applications."
+        },
+        "3": {
+          "title": "3. Web Scraping Program",
+          "description": "Created a web scraping program to collect information from Unegui.mn."
+        }
+      }
+    },
+    "qpay": {
+      "year": "2024",
+      "title": "Developer at QPay",
+      "description": "Developing a web application for customers using the company’s services."
+    }
   }
 }

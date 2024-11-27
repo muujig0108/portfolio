@@ -12,5 +12,37 @@
     "title": "Sidebar Hello world!",
     "Home": "トップページ_キャリア_技術ツール_について_お問い合わせ",
     "Name": "ソドフー　ムンフトゥル"
+  },
+  "experiences": {
+    "title": "私の経験",
+    "tenplus": {
+      "year": "2021 - 2022",
+      "title": "TenPlusの開発者",
+      "description": "収益および経費レポート用の社内 Web セクションを開発しました。"
+    },
+    "nso": {
+      "year": "2022 - 2024",
+      "title": "国立統計局のプログラマー",
+      "description": "",
+      "subProjects": {
+        "1": {
+          "title": "1. 家畜調査プログラム",
+          "description": "モンゴルの家畜調査プログラムを開発し、そのための文書を作成しました。"
+        },
+        "2": {
+          "title": "2. デスクトップアプリをWebに移行する",
+          "description": "3 人のチームを率いて、デスクトップ データ収集アプリを Web アプリケーションに変換しました。"
+        },
+        "3": {
+          "title": "3. Webスクレイピングプログラム",
+          "description": "Unegui.mn から情報を収集するための Web スクレイピング プログラムを作成しました。"
+        }
+      }
+    },
+    "qpay": {
+      "year": "2024",
+      "title": "QPayの開発者",
+      "description": "会社のサービスを利用する顧客向けのWebアプリケーションを開発します。"
+    }
   }
 }
