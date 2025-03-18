@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 export const metadata = {
   title: "Create Resourse, Chance, Strategy",
   icons: {
@@ -8,5 +10,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return children;
+  return (
+    <>
+      {children}
+      <Analytics />
+    </>
+  );
 }
